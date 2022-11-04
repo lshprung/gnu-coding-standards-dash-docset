@@ -9,7 +9,7 @@ INSERT_SQL = %Q[
   INSERT INTO searchIndex(name, type, path) VALUES ('%s','%s','%s');
 ]
 
-PATTERN = %r[<title>GNU automake: (.+)</title>]
+PATTERN = %r[<title>(.*)\(automake\)(.*)</title>]
 
 def quote(s)
   s.gsub(/&amp;/, '&').gsub(/'/, "\\'")
