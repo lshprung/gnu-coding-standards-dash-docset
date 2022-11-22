@@ -1,4 +1,4 @@
-Here is a script and a Makefile for generating a GNU Automake docset for Dash. The script is based on benzado's script for GNU Make https://github.com/benzado/gnu-make-dash-docset.
+Here is a script and a Makefile for generating a GNU Automake docset for Dash. The script is loosely based on benzado's script for GNU Make https://github.com/benzado/gnu-make-dash-docset.
 
 - GNU Automake: https://www.gnu.org/software/automake/
 - Dash: https://kapeli.com/dash
@@ -9,7 +9,7 @@ will be downloaded from www.gnu.org and packaged appropriately.
 
 Requirements:
 
+- any POSIX-compliant shell
 - curl
 - make
-- ruby
 - sqlite3
