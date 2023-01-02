@@ -1,4 +1,4 @@
-DOCSET_NAME = GNU_Automake
+DOCSET_NAME = GNU_Coding_Standards
 
 DOCSET_DIR    = $(DOCSET_NAME).docset
 CONTENTS_DIR  = $(DOCSET_DIR)/Contents
@@ -10,8 +10,8 @@ INDEX_FILE      = $(RESOURCES_DIR)/docSet.dsidx
 ICON_FILE       = $(DOCSET_DIR)/icon.png
 ARCHIVE_FILE    = $(DOCSET_NAME).tgz
 
-MANUAL_URL  = https://www.gnu.org/software/automake/manual/automake.html_node.tar.gz
-MANUAL_FILE = tmp/automake.html_node.tar.gz
+MANUAL_URL  = https://www.gnu.org/prep/standards/standards.html_node.tar.gz
+MANUAL_FILE = tmp/standards.html_node.tar.gz
 
 DOCSET = $(INFO_PLIST_FILE) $(INDEX_FILE) $(ICON_FILE)
 

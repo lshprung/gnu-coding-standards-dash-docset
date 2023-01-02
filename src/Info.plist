@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>gnuautomake</string>
+	<string>gnucodingstandards</string>
 	<key>CFBundleName</key>
-	<string>GNU Automake</string>
+	<string>GNU Coding Standards</string>
 	<key>DocSetPlatformFamily</key>
-	<string>automake</string>
+	<string>gnustandards</string>
 	<key>isDashDocset</key>
 	<true/>
 </dict>

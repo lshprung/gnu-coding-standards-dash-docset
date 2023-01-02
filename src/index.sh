@@ -6,14 +6,14 @@ shift
 get_title() {
 	FILE="$1"
 
-	PATTERN="<title>.*\(automake\).*</title>"
+	PATTERN="<title>.*\(GNU Coding Standards\).*</title>"
 
 	#Find pattern in file
 	grep -Eo "$PATTERN" "$FILE" | 
 		#Remove tag
 		sed 's/<[^>]*>//g' | \
 		#Remove '(automake)'
-		sed 's/(automake)//g' | \
+		sed 's/(GNU Coding Standards)//g' | \
 		#Remove trailing space
 		sed 's/[ ]*$//g' | \
 		#Replace '&amp' with '&'
